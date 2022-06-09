@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const dbUrl = process.env.MONGODB_URI || "mongodb://localhost:27017/cyf";
+const dbUrl = process.env.MONGODB_URI || "mongodb://localhost:27017";
 
 const configuration = {
 	serverSelectionTimeoutMS: 5000,
